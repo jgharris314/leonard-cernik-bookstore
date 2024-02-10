@@ -1,16 +1,14 @@
 import { leonardCernik } from "@/app/constants"
-import { booklist } from "@/app/static/data"
 import BookGrid from "../BookGrid"
 import SectionContainer from "../SectionContainer"
+import { getFilteredBooklist } from "./functions"
 
 export default function KindleSection() {
-  const kindle = booklist.filter(
-    (book) => book.author === leonardCernik && book.mediaType === "kindle"
-  )
+  const kindle = getFilteredBooklist(leonardCernik, "kindle")
 
   return (
     <SectionContainer
-      bgClasses="bg-slate-500 h-full"
+      bgClasses="bg-cernik-bg h-full"
       additionalContentClasses="book-section-additionalContentClasses"
       id="kindle"
     >

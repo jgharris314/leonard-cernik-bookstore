@@ -1,22 +1,18 @@
-import { adAdams, leonardCernik } from "@/app/constants"
-import { booklist } from "@/app/static/data"
+import { adAdams } from "@/app/constants"
 import BookGrid from "../BookGrid"
 import SectionContainer from "../SectionContainer"
+import { getFilteredBooklist } from "./functions"
 
 export default function AdAdamsSection() {
-  const adAdamsBooks = booklist.filter((book) => book.author === adAdams)
-
-  const kindleBooks = adAdamsBooks.filter((book) => book.mediaType === "kindle")
-  const audibleBooks = adAdamsBooks.filter(
-    (book) => book.mediaType === "audible"
-  )
+  const kindleBooks = getFilteredBooklist(adAdams, "kindle")
+  const audibleBooks = getFilteredBooklist(adAdams, "audible")
 
   const subHeaderClasses =
     "text-[20px] leading-[20px] md:text-[36px] md:leading-[36px] lg:text-[48px] lg:leading-[48px] text-center mb-4 capitalize font-bold"
 
   return (
     <SectionContainer
-      bgClasses="bg-slate-500 min-h-screen"
+      bgClasses="bg-cernik-bg min-h-screen"
       additionalContentClasses="book-section-additionalContentClasses"
       id="AD%20Adams"
     >

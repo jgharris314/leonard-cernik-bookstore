@@ -27,7 +27,7 @@ export default function DesktopNav() {
                 className="border-r-2 border-white last:border-none w-full text-center pr-4"
               >
                 <a
-                  className="capitalize text-[20px] font-semibold hover:border-b-4 hover:border-green-500 pb-2 text-white whitespace-nowrap"
+                  className="capitalize text-[20px] font-semibold hover:border-b-4 hover:border-green-500 pb-2 text-cernik-white whitespace-nowrap"
                   href={`#${option}`}
                 >
                   {option}

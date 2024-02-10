@@ -1,4 +1,4 @@
-type MediaType = "audible" | "kindle" | "paperback" | "hardcover"
+export type MediaType = "audible" | "kindle" | "paperback" | "hardcover"
 
 export interface Book {
   title: string

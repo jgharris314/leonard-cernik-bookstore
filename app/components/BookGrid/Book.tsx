@@ -6,10 +6,10 @@ export default function BookDisplay({ book }: { book: Book }) {
   const mediaBaseUrl =
     book.author === leonardCernik ? leonardCernikPhotoBaseRoute : ""
   return (
-    <div className="flex flex-col h-full w-full bg-white text-black items-center justify-between p-4 text-center bg-white/40 rounded">
+    <div className="flex flex-col h-full w-full text-black items-center justify-between p-4 text-center bg-cernik-white/60 rounded">
       <Image
-        height={250}
-        width={250}
+        height={150}
+        width={150}
         src={`${mediaBaseUrl}${book.img}`}
         alt={`Cover art of ${book.title}`}
       />
@@ -17,7 +17,7 @@ export default function BookDisplay({ book }: { book: Book }) {
 
       <a
         href={book.amazonLink}
-        className="h-12 w-24 bg-green-500 text-white font-black rounded bottom-0 flex items-center justify-center"
+        className="h-12 w-24 bg-[#00b4e0] text-white font-black rounded bottom-0 flex items-center justify-center border border-[#4a698c] shadow-md shadow-cernik-white/60"
         target="_blank"
       >
         Buy Now
