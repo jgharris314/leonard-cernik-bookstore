@@ -1,8 +1,5 @@
 import { Book } from "../types"
-
-const leonardCernik = "leonard cernik"
-
-const adAdams = "AD Adams"
+import { leonardCernik, adAdams } from "../constants"
 
 export const adAdmasWebsite =
   "https://adamswoodart.wixsite.com/artist?fbclid=IwAR2uBbOeUKXQ5k0c3O-ABKU8-eUcgLzGaAjKAkaRwLIwJfnTejd_Rm2ApbA"
@@ -105,7 +102,8 @@ export const booklist: Book[] = [
   {
     title: "CEUA and The Parallel Universe (Unanimous Anonymous)",
     img: "",
-    amazonLink: "",
+    amazonLink:
+      "https://www.amazon.com/CEUA-Parallel-Universe-Leonard-Cernik/dp/B09T5WTMG8/?_encoding=UTF8&pd_rd_w=27sRn&content-id=amzn1.sym.35cab78c-35e3-4fc1-aab0-27eaa6c86063%3Aamzn1.symc.e5c80209-769f-4ade-a325-2eaec14b8e0e&pf_rd_p=35cab78c-35e3-4fc1-aab0-27eaa6c86063&pf_rd_r=1Z51FPQZS2CPCVNHVCKX&pd_rd_wg=H1a5e&pd_rd_r=179c9d91-c681-44be-b295-93eed79463bb&ref_=pd_gw_ci_mcx_mr_hp_atf_m",
     author: leonardCernik,
     mediaType: "paperback",
     isPromoted: false,
@@ -222,7 +220,6 @@ export const booklist: Book[] = [
     mediaType: "paperback",
     isPromoted: false,
   },
-
   // Hardcover
   {
     title: "CEUA and The Parallel Universe (Unanimous Anonymous)",
@@ -261,7 +258,6 @@ export const booklist: Book[] = [
     mediaType: "audible",
     isPromoted: false,
   },
-
   // AD Adams Kindle
   {
     title: "The Dragon Healer of Tone World of Tone: Book 1",
