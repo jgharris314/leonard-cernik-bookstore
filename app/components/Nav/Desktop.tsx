@@ -5,8 +5,8 @@ import { navOptions } from "./constants"
 
 export default function DesktopNav() {
   return (
-    <SectionContainer bgClasses="hidden lg:block bg-black  bg-gradient-to-t from-black/90 to-black/50 fixed h-16 w-screen left-0 top-0 z-50 !pt-0">
-      <div className="relative flex w-full justify-between h-16 items-center">
+    <SectionContainer bgClasses="hidden lg:block bg-black  bg-gradient-to-t from-black/90 to-black/50 fixed h-[3.5rem] w-screen left-0 top-0 z-50 !pt-0">
+      <div className="relative flex w-full justify-between h-[3.5rem] items-center">
         <div className="w-full">
           {" "}
           {/* <Image

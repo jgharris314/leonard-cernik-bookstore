@@ -8,7 +8,7 @@ export const booklist: Book[] = [
   // Audible
   {
     title: "Cosmic Eliminator: The Quest, Book 1",
-    img: "",
+    img: "cosmic-eliminator-the-quest-book-1-kindle.jpg",
     amazonLink:
       "https://www.amazon.com/Cosmic-Eliminator-Quest-Book-1/dp/B01FN5XBKC/ref=sr_1_1?crid=LBYDCRC1CYDD&keywords=leonard+cernik+audible&qid=1707465584&sprefix=leonard+cernik%2Caps%2C134&sr=8-1",
     author: leonardCernik,
@@ -18,7 +18,7 @@ export const booklist: Book[] = [
   //  Kindle
   {
     title: "CEUA THE CONTINUING STORY (Unanimous Anonymous Book 8)",
-    img: "",
+    img: "ceua-the-continuing-story-kindle.jpg",
     amazonLink:
       "https://www.amazon.com/CEUA-CONTINUING-STORY-Unanimous-Book-ebook/dp/B0BVPGRDL7/ref=sr_1_1?crid=139KL9BH1J8G1&keywords=leonard+cernik+kindle&qid=1707465663&s=audible&sprefix=leonard+cernik+kindle%2Caudible%2C214&sr=1-1",
     author: leonardCernik,
@@ -27,7 +27,7 @@ export const booklist: Book[] = [
   },
   {
     title: "CEUA and The Parallel Universe (Unanimous Anonymous Book 6)",
-    img: "",
+    img: "ceua-and-the-parallel-universe-kindle.jpg",
     amazonLink:
       "https://www.amazon.com/CEUA-Parallel-Universe-Unanimous-Book-ebook/dp/B09SXWRG1P/ref=sr_1_2?crid=139KL9BH1J8G1&keywords=leonard+cernik+kindle&qid=1707465731&s=audible&sprefix=leonard+cernik+kindle%2Caudible%2C214&sr=1-2",
     author: leonardCernik,
@@ -37,7 +37,7 @@ export const booklist: Book[] = [
   {
     title:
       "UNANIMOUS ANONYMOUS VII-CERNIK WORK HISTORY: UNANIMOUS ANONYMOUS SERIES",
-    img: "",
+    img: "unaninmous-anonymous-vii-cernik-work-history-kindle.jpg",
     amazonLink:
       "https://www.amazon.com/UNANIMOUS-VII-CERNIK-WORK-HISTORY-ebook/dp/B07H21GTMG/ref=sr_1_3?crid=139KL9BH1J8G1&keywords=leonard+cernik+kindle&qid=1707465731&s=audible&sprefix=leonard+cernik+kindle%2Caudible%2C214&sr=1-3",
     author: leonardCernik,
@@ -46,7 +46,7 @@ export const booklist: Book[] = [
   },
   {
     title: "UNANIMOUS ANONYMOUS: Cosmic Eliminator Series Four",
-    img: "",
+    img: "ua-cosmi-eliminator-series-four-kindle.jpg",
     amazonLink:
       "https://www.amazon.com/UNANIMOUS-Cosmic-Eliminator-Leonard-Cernik-ebook/dp/B01N5EANVY/ref=sr_1_4?crid=139KL9BH1J8G1&keywords=leonard+cernik+kindle&qid=1707465731&s=audible&sprefix=leonard+cernik+kindle%2Caudible%2C214&sr=1-4",
     author: leonardCernik,
@@ -55,7 +55,7 @@ export const booklist: Book[] = [
   },
   {
     title: "Unanimous Anonymous IX The Conspiracy",
-    img: "",
+    img: "ua-ix-the-conspiracy-kindle.jpg",
     amazonLink:
       "https://www.amazon.com/Unanimous-IX-Conspiracy-Book-ebook/dp/B07MB473JC/ref=sr_1_5?crid=139KL9BH1J8G1&keywords=leonard+cernik+kindle&qid=1707465731&s=audible&sprefix=leonard+cernik+kindle%2Caudible%2C214&sr=1-5",
     author: leonardCernik,
@@ -64,7 +64,7 @@ export const booklist: Book[] = [
   },
   {
     title: "Cosmic Eliminator The Quest, Book-One (Unanimous Anonymous Book 5)",
-    img: "",
+    img: "cosmic-eliminator-the-quest-book-1-kindle.jpg",
     amazonLink:
       "https://www.amazon.com/Cosmic-Eliminator-Quest-Book-One-Sci-Fi-Novel-ebook/dp/B010EJQV9A/ref=sr_1_6?crid=139KL9BH1J8G1&keywords=leonard+cernik+kindle&qid=1707465731&s=audible&sprefix=leonard+cernik+kindle%2Caudible%2C214&sr=1-6",
     author: leonardCernik,
@@ -73,7 +73,7 @@ export const booklist: Book[] = [
   },
   {
     title: "Unanimous Anonymous X: Quantum Physics Essay",
-    img: "",
+    img: "ua-x-quantum-physics-essay-kindle.jpg",
     amazonLink:
       "https://www.amazon.com/Unanimous-X-Quantum-Physics-Essay-ebook/dp/B086W12H5W/ref=sr_1_7?crid=139KL9BH1J8G1&keywords=leonard+cernik+kindle&qid=1707465731&s=audible&sprefix=leonard+cernik+kindle%2Caudible%2C214&sr=1-7",
     author: leonardCernik,
@@ -82,7 +82,7 @@ export const booklist: Book[] = [
   },
   {
     title: "UNANIMOUS ANONYMOUS V: TELEPATHY-ESP-REALITY?",
-    img: "",
+    img: "ua-v-telepath-esp-reality-kindle.jpg",
     amazonLink:
       "https://www.amazon.com/UNANIMOUS-TELEPATHY-ESP-REALITY-COSMIC-ELIMINATOR-SEVEN-ebook/dp/B077HFJ7QB/ref=sr_1_8?crid=139KL9BH1J8G1&keywords=leonard+cernik+kindle&qid=1707465731&s=audible&sprefix=leonard+cernik+kindle%2Caudible%2C214&sr=1-8",
     author: leonardCernik,
@@ -92,7 +92,7 @@ export const booklist: Book[] = [
   // Paperback
   {
     title: "CEUA THE CONTINUING STORY (Unanimous Anonymous)",
-    img: "",
+    img: "ceua-the-continuing-story-paperback.jpg",
     amazonLink:
       "https://www.amazon.com/CONTINUING-STORY-Unanimous-Leonard-Cernik/dp/B0CQVKHY61/ref=sr_1_1?crid=1BIJUL8139QIX&keywords=leonard+cernik+paperback&qid=1707465974&s=audible&sprefix=leonard+cernik+paperback%2Caudible%2C116&sr=1-1",
     author: leonardCernik,
@@ -101,7 +101,7 @@ export const booklist: Book[] = [
   },
   {
     title: "CEUA and The Parallel Universe (Unanimous Anonymous)",
-    img: "",
+    img: "ceua-and-the-parallel-universe-paperback.jpg",
     amazonLink:
       "https://www.amazon.com/CEUA-Parallel-Universe-Leonard-Cernik/dp/B09T5WTMG8/?_encoding=UTF8&pd_rd_w=27sRn&content-id=amzn1.sym.35cab78c-35e3-4fc1-aab0-27eaa6c86063%3Aamzn1.symc.e5c80209-769f-4ade-a325-2eaec14b8e0e&pf_rd_p=35cab78c-35e3-4fc1-aab0-27eaa6c86063&pf_rd_r=1Z51FPQZS2CPCVNHVCKX&pd_rd_wg=H1a5e&pd_rd_r=179c9d91-c681-44be-b295-93eed79463bb&ref_=pd_gw_ci_mcx_mr_hp_atf_m",
     author: leonardCernik,

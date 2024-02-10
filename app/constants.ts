@@ -1,4 +1,5 @@
-export const leonardCernikPhotoBaseRoute = "/bookImages"
+export const leonardCernikPhotoBaseRoute =
+  "/bookImages/leonardCernikBookPhotos/"
 
 export const leonardCernik = "leonard cernik"
 
