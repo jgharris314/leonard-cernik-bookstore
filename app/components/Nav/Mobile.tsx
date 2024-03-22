@@ -18,13 +18,13 @@ export default function MobileNav() {
     setIsOpen(false)
   }
 
-  const orangeHex = "#f2a508"
-  const greenHex = "#2cfc0490"
+  const greenHex = "#1cb048"
+  const blueHex = "#00b4e0"
 
   return (
     <>
       <SectionContainer
-        bgClasses="lg:hidden bg-black  bg-gradient-to-b from-grey-500/90 to-grey-500/70 fixed h-16 w-screen left-0 top-0 z-50"
+        bgClasses="lg:hidden bg-cernik-nav bg-gradient-to-t from-black/50 to-black/10 fixed h-16 w-screen left-0 top-0 z-50"
         additionalContentClasses="flex w-full h-16 items-center"
       >
         <div className="w-1/3">
@@ -34,9 +34,9 @@ export default function MobileNav() {
             className="h-12 flex items-center"
           >
             {isOpen ? (
-              <MdClose size={35} color={orangeHex} />
+              <MdClose size={35} color={"#d1d5dc"} />
             ) : (
-              <RxHamburgerMenu size={35} color={greenHex} />
+              <RxHamburgerMenu size={35} color={"#d1d5dc"} />
             )}
           </button>
         </div>
@@ -55,7 +55,7 @@ export default function MobileNav() {
       </SectionContainer>
 
       {isOpen && (
-        <div className="h-screen fixed top-16 left-0 w-screen bg-black lg:hidden transition-transform z-50">
+        <div className="h-screen fixed top-16 left-0 w-screen bg-cernik-nav lg:hidden transition-transform z-50">
           {
             <ul className="flex flex-col w-full items-start justify-start gap-4 text-cernik-white p-6 md:px-12">
               {navOptions.map((option) => {
@@ -65,7 +65,7 @@ export default function MobileNav() {
                     type="button"
                     onClick={() => onClickHandler(option)}
                     className={
-                      "capitalize w-full h-20 text-[20px] font-semibold border-white border-b-2"
+                      "capitalize w-full h-16 text-[20px] font-semibold border-white border-b-2"
                     }
                   >
                     {option}

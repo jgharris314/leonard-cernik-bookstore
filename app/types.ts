@@ -1,10 +1,14 @@
-export type MediaType = "audible" | "kindle" | "paperback" | "hardcover"
+export type MediaType =
+  | "audible"
+  | "kindle"
+  | "paperback"
+  | "hardcover"
+  | "youtube"
 
 export interface Book {
   title: string
   img: string
   author: string
-  amazonLink: string
+  link: string
   mediaType: MediaType
-  isPromoted: boolean
 }

@@ -9,8 +9,11 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        "cernik-bg": "#4a698c",
+        "cernik-bg": "#741b4770",
         "cernik-white": "#d1d5dc",
+        "cernik-light-blue": "#302947",
+        "cernik-green": "#11d0c0",
+        "cernik-nav": "#302947",
       },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",

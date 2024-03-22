@@ -16,11 +16,11 @@ export default function BookDisplay({ book }: { book: Book }) {
       <h3 className="font-bold text-[18px] py-4">{book.title}</h3>
 
       <a
-        href={book.amazonLink}
-        className="h-12 w-24 bg-[#00b4e0] text-white font-black rounded bottom-0 flex items-center justify-center border border-[#4a698c] shadow-md shadow-cernik-white/60"
+        href={book.link}
+        className="h-12 w-28 bg-cernik-green hover:bg-cernik-light-blue text-white font-black rounded bottom-0 flex items-center justify-center border border-cernik-bg shadow-md shadow-cernik-white/60"
         target="_blank"
       >
-        Buy Now
+        {book.mediaType === "youtube" ? "Listen Now" : "Buy Now"}
       </a>
     </div>
   )

@@ -2,6 +2,7 @@ import { adAdams } from "@/app/constants"
 import BookGrid from "../BookGrid"
 import SectionContainer from "../SectionContainer"
 import { getFilteredBooklist } from "./functions"
+import { adAdmasWebsite } from "@/app/static/data"
 
 export default function AdAdamsSection() {
   const kindleBooks = getFilteredBooklist(adAdams, "kindle")
@@ -14,7 +15,7 @@ export default function AdAdamsSection() {
     <SectionContainer
       bgClasses="bg-cernik-bg min-h-screen"
       additionalContentClasses="book-section-additionalContentClasses"
-      id="AD%20Adams"
+      id="AD Adams"
     >
       <h2 className="section-header">AD Adams</h2>
 
@@ -22,6 +23,13 @@ export default function AdAdamsSection() {
       <BookGrid books={audibleBooks} />
       <h3 className={`${subHeaderClasses} pt-8`}>Kindle</h3>
       <BookGrid books={kindleBooks} />
+
+      <a
+        href={adAdmasWebsite}
+        className="text-[54px] font-bold text-cernik-green underline hover:text-cernik-light-blue text-center w-full my-16"
+      >
+        Check out more work by AD Adams
+      </a>
     </SectionContainer>
   )
 }
