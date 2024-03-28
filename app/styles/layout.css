@@ -47,9 +47,9 @@
 }
 
 .section-header {
-  @apply text-[32px] leading-[32px] md:text-[48px] md:leading-[48px] lg:text-[54px]  lg:leading-[54px] text-center mb-4 capitalize font-bold text-white;
+  @apply text-[32px] leading-[32px] md:text-[48px] md:leading-[48px] lg:text-[54px] lg:leading-[54px] text-center mb-4 capitalize font-bold text-white;
 }
 
 .book-section-additionalContentClasses {
-  @apply flex flex-col w-full items-center pt-20 pb-4;
+  @apply flex flex-col w-full items-center pt-24 pb-4;
 }

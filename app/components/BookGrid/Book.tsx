@@ -13,15 +13,18 @@ export default function BookDisplay({ book }: { book: Book }) {
       : adAdamsPhotoBaseRoute
   return (
     <div className="flex flex-col h-full w-full text-black items-center justify-between p-4 text-center bg-cernik-white/60 rounded">
-      <Image
-        height={150}
-        width={150}
-        src={`${mediaBaseUrl}${book.img}`}
-        alt={`Cover art of ${book.title}`}
-      />
+      <div className="h-[26rem]">
+        <Image
+          height={200}
+          width={250}
+          src={`${mediaBaseUrl}${book.img}`}
+          alt={`Cover art of ${book.title}`}
+          className="w-auto h-auto"
+        />
+      </div>
       <h3 className="font-bold text-[18px] py-4">{book.title}</h3>
       {book.description && (
-        <span className="w-full text-center text-[14px] font-semibold mb-4">
+        <span className="w-full text-center text-[18px] font-semibold mb-8 max-h-[14rem] overflow-y-auto custom-scrollbar px-2">
           {book.description}
         </span>
       )}

@@ -24,8 +24,8 @@ export default function MobileNav() {
   return (
     <>
       <SectionContainer
-        bgClasses="lg:hidden bg-cernik-nav bg-gradient-to-t from-black/50 to-black/10 fixed h-16 w-screen left-0 top-0 z-50"
-        additionalContentClasses="flex w-full h-16 items-center"
+        bgClasses="xl:hidden bg-cernik-nav bg-gradient-to-t from-black/50 to-black/10 fixed h-[5.5rem] w-screen left-0 top-0 z-50"
+        additionalContentClasses="flex w-full h-[5.5rem] items-center"
       >
         <div className="w-1/3">
           <button
@@ -41,15 +41,13 @@ export default function MobileNav() {
           </button>
         </div>
         <div className="relative flex w-1/3 justify-center bg-contain">
-          {/* <Image
-            alt="jgharris314 logo"
-            className=" bg-mothPurple-0  bg-gradient-to-b from-black/90 to-black/70 h-16 w-40 z-50"
-            src={logo}
-            width={0}
+          <Image
+            alt="leonard cernik logo"
+            className="bg-black bg-gradient-to-t from-black/90 to-black/50 h-[5rem] w-auto"
+            src={"/fromMatt9-16.jpg"}
+            width={140}
             height={0}
-            sizes="100vw"
-          /> */}
-          [logo]
+          />
         </div>
         <div className="w-1/3" />
       </SectionContainer>

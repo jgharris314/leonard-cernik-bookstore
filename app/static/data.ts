@@ -12,6 +12,8 @@ export const booklist: Book[] = [
     link: "https://www.amazon.com/Cosmic-Eliminator-Quest-Book-1/dp/B01FN5XBKC/",
     author: leonardCernik,
     mediaType: "audible",
+    description:
+      "3rd rewrite of initial story-line that was published! Ceua is an ordinary man working an ordinary job, day in and day out, dealing with incompetent bosses. As far as he is concerned, there is nothing more to this world than his mundane existence. Everything changes when late one night; he is visited by two entities from across space who reveals to him the secret workings of the universe and the technology needed to explore it. Enlightened with knowledge and power above anyone else, Ceua is thrown into a quest of both science and faith and must come to terms with the fact that he, his princess, and his new family have a destiny far beyond the confines of earth. First book in the trilogy.",
   },
   // YouTube
   {
@@ -186,7 +188,7 @@ export const booklist: Book[] = [
     author: leonardCernik,
     mediaType: "paperback",
     description:
-      "3rd rewrite of initial story-line that was published! Ceua is an ordinary man working an ordinary job, day in and day out, dealing with incompetent bosses. As far as he is concerned, there is nothing more to this world than his mundane existence. Everything changes when late one night; he is visited by two entities from across space who reveals to him the secret workings of the universe and the technology needed to explore it. Enlightened with knowledge and power above anyone else, Ceua is thrown into a quest of both science and faith and must come to terms with the fact that he, his princess, and his new family have a destiny far beyond the confines of earth. /nFirst book in the trilogy.",
+      "3rd rewrite of initial story-line that was published! Ceua is an ordinary man working an ordinary job, day in and day out, dealing with incompetent bosses. As far as he is concerned, there is nothing more to this world than his mundane existence. Everything changes when late one night; he is visited by two entities from across space who reveals to him the secret workings of the universe and the technology needed to explore it. Enlightened with knowledge and power above anyone else, Ceua is thrown into a quest of both science and faith and must come to terms with the fact that he, his princess, and his new family have a destiny far beyond the confines of earth. First book in the trilogy.",
   },
   {
     title: "Unanimous Anonymous V: How Real is Telepathy and ESP?",

@@ -5,13 +5,13 @@ import { navOptions } from "./constants"
 
 export default function DesktopNav() {
   return (
-    <SectionContainer bgClasses="hidden lg:block bg-cernik-nav bg-gradient-to-t from-black/50 to-black/10 fixed h-[5.5rem] w-screen left-0 top-0 z-50 !pt-0">
+    <SectionContainer bgClasses="hidden xl:block bg-cernik-nav bg-gradient-to-t from-black/50 to-black/10 fixed h-[5.5rem] w-screen left-0 top-0 z-50 !pt-0">
       <div className="relative flex w-full justify-between h-[5.5rem] items-center -ml-2.5">
         <div className="w-full">
           {" "}
           <Image
             alt="leonard cernik logo"
-            className="bg-black bg-gradient-to-t from-black/90 to-black/50 h-[5.5rem]"
+            className="bg-black bg-gradient-to-t from-black/90 to-black/50 h-[5rem] w-auto"
             src={"/fromMatt9-16.jpg"}
             width={140}
             height={0}
