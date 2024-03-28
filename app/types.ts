@@ -11,4 +11,5 @@ export interface Book {
   author: string
   link: string
   mediaType: MediaType
+  description?: string
 }

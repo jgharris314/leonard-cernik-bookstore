@@ -1,10 +1,16 @@
 import Image from "next/image"
 import { Book } from "../../types"
-import { leonardCernik, leonardCernikPhotoBaseRoute } from "@/app/constants"
+import {
+  adAdamsPhotoBaseRoute,
+  leonardCernik,
+  leonardCernikPhotoBaseRoute,
+} from "@/app/constants"
 
 export default function BookDisplay({ book }: { book: Book }) {
   const mediaBaseUrl =
-    book.author === leonardCernik ? leonardCernikPhotoBaseRoute : ""
+    book.author === leonardCernik
+      ? leonardCernikPhotoBaseRoute
+      : adAdamsPhotoBaseRoute
   return (
     <div className="flex flex-col h-full w-full text-black items-center justify-between p-4 text-center bg-cernik-white/60 rounded">
       <Image
@@ -14,6 +20,11 @@ export default function BookDisplay({ book }: { book: Book }) {
         alt={`Cover art of ${book.title}`}
       />
       <h3 className="font-bold text-[18px] py-4">{book.title}</h3>
+      {book.description && (
+        <span className="w-full text-center text-[14px] font-semibold mb-4">
+          {book.description}
+        </span>
+      )}
 
       <a
         href={book.link}
