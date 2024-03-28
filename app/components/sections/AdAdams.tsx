@@ -26,6 +26,7 @@ export default function AdAdamsSection() {
 
       <a
         href={adAdmasWebsite}
+        target="_blank"
         className="text-[54px] font-bold text-cernik-green underline hover:text-cernik-light-blue text-center w-full my-16"
       >
         Check out more work by AD Adams
