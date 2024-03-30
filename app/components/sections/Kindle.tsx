@@ -8,7 +8,7 @@ export default function KindleSection() {
 
   return (
     <SectionContainer
-      bgClasses="bg-cernik-bg h-full"
+      bgClasses="min-h-screen"
       additionalContentClasses="book-section-additionalContentClasses"
       id="kindle"
     >

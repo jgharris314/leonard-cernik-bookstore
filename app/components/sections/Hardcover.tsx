@@ -8,7 +8,6 @@ export default function HardcoverSection() {
 
   return (
     <SectionContainer
-      bgClasses="bg-cernik-bg h-full"
       additionalContentClasses="book-section-additionalContentClasses"
       id="hardcover"
     >

@@ -10,7 +10,7 @@ import YoutubeSection from "./components/sections/Youtube"
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center w-full bg-cernik-nav bg-gradient-to-t from-black/50 to-black/10">
+    <main className="flex min-h-screen flex-col items-center w-full bg-cernik-bg bg-gradient-to-b from-black/60 to-black/60">
       <Nav />
       <HomeSection />
       <AudibleSection />

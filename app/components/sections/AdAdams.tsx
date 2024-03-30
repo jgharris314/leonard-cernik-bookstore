@@ -13,11 +13,11 @@ export default function AdAdamsSection() {
 
   return (
     <SectionContainer
-      bgClasses="bg-cernik-bg min-h-screen"
+      bgClasses="min-h-screen"
       additionalContentClasses="book-section-additionalContentClasses"
       id="AD Adams"
     >
-      <h2 className="section-header">AD Adams</h2>
+      <h2 className="section-header mb-20">AD Adams</h2>
 
       <h3 className={subHeaderClasses}>Audible</h3>
       <BookGrid books={audibleBooks} />
@@ -27,7 +27,7 @@ export default function AdAdamsSection() {
       <a
         href={adAdmasWebsite}
         target="_blank"
-        className="text-[54px] font-bold text-cernik-green underline hover:text-cernik-light-blue text-center w-full my-16"
+        className="text-[54px] font-bold text-cernik-light-blue hover:text-cernik-green underline text-center w-full my-16 underline-offset-[1rem]"
       >
         Check out more work by AD Adams
       </a>

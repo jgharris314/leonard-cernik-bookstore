@@ -53,7 +53,7 @@ export default function MobileNav() {
       </SectionContainer>
 
       {isOpen && (
-        <div className="h-screen fixed top-16 left-0 w-screen bg-cernik-nav lg:hidden transition-transform z-50">
+        <div className="h-screen fixed top-[5.5rem] left-0 w-screen bg-cernik-nav lg:hidden transition-transform z-50">
           {
             <ul className="flex flex-col w-full items-start justify-start gap-4 text-cernik-white p-6 md:px-12">
               {navOptions.map((option) => {

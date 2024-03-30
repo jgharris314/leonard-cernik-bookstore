@@ -8,7 +8,7 @@ export default function PaperbacksSection() {
 
   return (
     <SectionContainer
-      bgClasses="bg-cernik-bg min-h-screen"
+      bgClasses="min-h-screen"
       additionalContentClasses="book-section-additionalContentClasses"
       id="paperback"
     >
