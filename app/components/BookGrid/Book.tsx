@@ -1,0 +1,42 @@
+import Image from "next/image"
+import { Book } from "../../types"
+import {
+  adAdamsPhotoBaseRoute,
+  leonardCernik,
+  leonardCernikPhotoBaseRoute,
+} from "@/app/constants"
+
+export default function BookDisplay({ book }: { book: Book }) {
+  const mediaBaseUrl =
+    book.author === leonardCernik
+      ? leonardCernikPhotoBaseRoute
+      : adAdamsPhotoBaseRoute
+  return (
+    <div className="flex flex-col h-full w-full text-cernik-white items-center justify-between p-4 text-center bg-cernik-white/10 shadow-cernik-white shadow">
+      <div className="h-[19rem] xl:h-[26rem]">
+        <Image
+          height={180}
+          width={180}
+          src={`${mediaBaseUrl}${book.img}`}
+          alt={`Cover art of ${book.title}`}
+          className="w-auto h-auto"
+        />
+      </div>
+      <h3 className="font-bold text-[18px] xl:text-[24px] py-4">
+        {book.title}
+      </h3>
+
+      <span className="w-full text-left text-[15px] xl:text-[18px] mb-8 h-[10rem] overflow-y-auto custom-scrollbar px-2">
+        {book?.description}
+      </span>
+
+      <a
+        href={book.link}
+        className="h-12 w-28 bg-cernik-light-blue hover:bg-cernik-green text-white font-black rounded bottom-0 flex items-center justify-center shadow shadow-cernik-white/60 hover:shadow-md hover:shadow-cernik-white/60"
+        target="_blank"
+      >
+        {book.mediaType === "youtube" ? "Listen Now" : "Buy Now"}
+      </a>
+    </div>
+  )
+}
