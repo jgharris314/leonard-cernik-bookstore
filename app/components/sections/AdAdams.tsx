@@ -27,7 +27,7 @@ export default function AdAdamsSection() {
       <a
         href={adAdmasWebsite}
         target="_blank"
-        className="text-[54px] font-bold text-cernik-light-blue hover:text-cernik-green underline text-center w-full my-16 underline-offset-[1rem]"
+        className="text-[40px] xl:text-[54px] font-bold text-cernik-light-blue hover:text-cernik-green underline text-center w-full my-16 underline-offset-[1rem]"
       >
         Check out more work by AD Adams
       </a>

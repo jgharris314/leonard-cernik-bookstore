@@ -24,7 +24,10 @@ export default function BookDisplay({ book }: { book: Book }) {
 
   return (
     <div
-      className="flex flex-col h-full w-full text-cernik-white items-center justify-between p-4 text-center bg-cernik-white/10 shadow-cernik-white shadow hover:shadow-cernik-white hover:shadow-md hover:bg-cernik-white/25"
+      className={`flex flex-col h-full w-full text-cernik-white items-center justify-between p-4 text-center bg-cernik-white/10 shadow-cernik-white shadow ${
+        book.description &&
+        "hover:shadow-cernik-white hover:shadow-md hover:bg-cernik-white/25"
+      }`}
       onClick={() => handleClick()}
     >
       <div className="h-[19rem] xl:h-[25rem]">
@@ -37,7 +40,7 @@ export default function BookDisplay({ book }: { book: Book }) {
             className="w-auto h-auto"
           />
         ) : (
-          <div className="w-full h-full bg-black overflow-y-auto custom-scrollbar p-4">
+          <div className="w-full h-full cernik-background-color overflow-y-auto custom-scrollbar p-4 font-semibold">
             <p className="text-left">{book?.description}</p>
           </div>
         )}
