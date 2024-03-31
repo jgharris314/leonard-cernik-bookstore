@@ -6,7 +6,7 @@ import { navOptions } from "./constants"
 export default function DesktopNav() {
   return (
     <SectionContainer bgClasses="hidden xl:block bg-cernik-nav bg-gradient-to-t from-black/50 to-black/10 fixed h-[5.5rem] w-screen left-0 top-0 z-50 !pt-0">
-      <div className="relative flex w-full justify-between h-[5.5rem] items-center -ml-2.5">
+      <div className="relative flex w-full justify-between h-[5.5rem] items-center ">
         <div className="w-full">
           {" "}
           <Image

@@ -7,7 +7,7 @@ export default function YoutubeSection() {
   const youtube = getFilteredBooklist(leonardCernik, "youtube")
   return (
     <SectionContainer
-      bgClasses="min-h-screen"
+      bgClasses="h-full"
       additionalContentClasses="book-section-additionalContentClasses"
       id="youTube"
     >

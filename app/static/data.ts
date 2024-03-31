@@ -224,7 +224,7 @@ export const booklist: Book[] = [
   },
   {
     title: "CEUA THE CONTINUING STORY (Unanimous Anonymous)",
-    img: "",
+    img: "ceua-the-continuing-story-hardcover.jpg",
     link: "https://www.amazon.com/CONTINUING-STORY-Unanimous-Leonard-Cernik/dp/B0CR8H4BZ7/",
     author: leonardCernik,
     mediaType: "hardcover",

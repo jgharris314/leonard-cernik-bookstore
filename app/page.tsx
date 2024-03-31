@@ -12,6 +12,7 @@ export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center w-full bg-cernik-bg bg-gradient-to-b from-black/60 to-black/60">
       <Nav />
+
       <HomeSection />
       <AudibleSection />
       <YoutubeSection />

@@ -13,7 +13,7 @@ export default function AdAdamsSection() {
 
   return (
     <SectionContainer
-      bgClasses="min-h-screen"
+      bgClasses="h-full"
       additionalContentClasses="book-section-additionalContentClasses"
       id="AD Adams"
     >
