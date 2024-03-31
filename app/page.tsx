@@ -13,7 +13,7 @@ export default function Home() {
     <main className="flex flex-col items-center w-full cernik-background-color">
       <Nav />
       <HomeSection />
-      <div className="flex flex-col w-full">
+      <div className="flex flex-col w-full gap-20 md:gap-0">
         <AudibleSection />
         <YoutubeSection />
         <KindleSection />
