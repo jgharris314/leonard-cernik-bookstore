@@ -30,7 +30,7 @@ export default function BookDisplay({ book }: { book: Book }) {
       }`}
       onClick={() => handleClick()}
     >
-      <div className="h-[19rem] xl:h-[25rem]">
+      <div className="h-[304px] xl:h-[25rem]">
         {!isShowDisplay ? (
           <Image
             height={140}
