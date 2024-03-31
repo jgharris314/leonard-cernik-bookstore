@@ -11,7 +11,7 @@ const config: Config = {
       colors: {
         "cernik-bg": "#741b4770",
         "cernik-white": "#d1d5dc",
-        "cernik-green": "#00cc00",
+        "cernik-green": "#b7f0ec",
         "cernik-light-blue": "#11d0c0",
         "cernik-nav": "#000",
       },
